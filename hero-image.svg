@@ -1,0 +1,19 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="400" cy="400" r="350" />
+    </clipPath>
+  </defs>
+  <circle cx="400" cy="400" r="350" fill="#111111" />
+  <circle cx="400" cy="400" r="350" fill="url(#gradient)" opacity="0.2" />
+  <g clip-path="url(#circleClip)">
+    <rect x="150" y="150" width="500" height="500" fill="#111111" />
+    <circle cx="400" cy="300" r="100" fill="url(#gradient)" opacity="0.7" />
+    <rect x="300" y="400" width="200" height="300" rx="100" fill="url(#gradient)" opacity="0.7" />
+  </g>
+  <circle cx="400" cy="400" r="350" fill="none" stroke="url(#gradient)" stroke-width="5" />
+</svg>

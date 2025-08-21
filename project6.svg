@@ -1,0 +1,53 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect width="800" height="600" fill="url(#gradient)" opacity="0.1" />
+  
+  <!-- Recommendation Engine Visual -->
+  <!-- Central User Node -->
+  <circle cx="400" cy="300" r="50" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="305" font-family="Arial" font-size="16" fill="white" text-anchor="middle">USER</text>
+  
+  <!-- Recommendation Nodes -->
+  <circle cx="200" cy="150" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="200" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 1</text>
+  
+  <circle cx="600" cy="150" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="600" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 2</text>
+  
+  <circle cx="150" cy="350" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="150" y="355" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 3</text>
+  
+  <circle cx="650" cy="350" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="650" y="355" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 4</text>
+  
+  <circle cx="300" cy="500" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="300" y="505" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 5</text>
+  
+  <circle cx="500" cy="500" r="30" fill="#222" stroke="url(#gradient)" stroke-width="2" />
+  <text x="500" y="505" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Item 6</text>
+  
+  <!-- Connection Lines -->
+  <line x1="400" y1="300" x2="200" y2="150" stroke="url(#gradient)" stroke-width="2" opacity="0.6" />
+  <line x1="400" y1="300" x2="600" y2="150" stroke="url(#gradient)" stroke-width="2" opacity="0.8" />
+  <line x1="400" y1="300" x2="150" y2="350" stroke="url(#gradient)" stroke-width="2" opacity="0.4" />
+  <line x1="400" y1="300" x2="650" y2="350" stroke="url(#gradient)" stroke-width="2" opacity="0.9" />
+  <line x1="400" y1="300" x2="300" y2="500" stroke="url(#gradient)" stroke-width="2" opacity="0.5" />
+  <line x1="400" y1="300" x2="500" y2="500" stroke="url(#gradient)" stroke-width="2" opacity="0.7" />
+  
+  <!-- Similarity Scores -->
+  <text x="300" y="225" font-family="Arial" font-size="14" fill="#00d9ff">60%</text>
+  <text x="500" y="225" font-family="Arial" font-size="14" fill="#00d9ff">80%</text>
+  <text x="275" y="325" font-family="Arial" font-size="14" fill="#00d9ff">40%</text>
+  <text x="525" y="325" font-family="Arial" font-size="14" fill="#00d9ff">90%</text>
+  <text x="350" y="400" font-family="Arial" font-size="14" fill="#00d9ff">50%</text>
+  <text x="450" y="400" font-family="Arial" font-size="14" fill="#00d9ff">70%</text>
+  
+  <rect x="250" y="50" width="300" height="50" rx="10" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="80" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Recommendation Engine</text>
+</svg>
