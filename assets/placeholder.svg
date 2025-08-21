@@ -1,0 +1,11 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect x="250" y="250" width="300" height="100" rx="20" fill="url(#gradient)" />
+  <text x="400" y="310" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Image Placeholder</text>
+</svg>

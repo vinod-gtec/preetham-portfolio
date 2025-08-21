@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect width="800" height="600" fill="url(#gradient)" opacity="0.1" />
+  
+  <!-- AI Art Generator Project Visual -->
+  <circle cx="400" cy="200" r="100" fill="url(#gradient)" opacity="0.6" />
+  <circle cx="250" cy="350" r="70" fill="url(#gradient)" opacity="0.4" />
+  <circle cx="550" cy="350" r="70" fill="url(#gradient)" opacity="0.4" />
+  
+  <rect x="300" y="400" width="200" height="50" rx="10" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="430" font-family="Arial" font-size="20" fill="white" text-anchor="middle">AI Art Generator</text>
+  
+  <!-- Abstract AI art elements -->
+  <path d="M400,150 C450,180 500,120 550,150" stroke="white" stroke-width="2" fill="none" />
+  <path d="M250,150 C300,180 350,120 400,150" stroke="white" stroke-width="2" fill="none" />
+</svg>

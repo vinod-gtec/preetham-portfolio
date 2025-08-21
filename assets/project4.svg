@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect width="800" height="600" fill="url(#gradient)" opacity="0.1" />
+  
+  <!-- Object Detection Visual -->
+  <rect x="150" y="100" width="500" height="350" rx="5" fill="#222" />
+  
+  <!-- Car Object -->
+  <rect x="200" y="250" width="180" height="80" rx="10" stroke="#00d9ff" stroke-width="3" fill="none" />
+  <text x="290" y="240" font-family="Arial" font-size="14" fill="#00d9ff">Car: 98%</text>
+  
+  <!-- Person Object -->
+  <rect x="450" y="200" width="60" height="150" rx="5" stroke="#7000ff" stroke-width="3" fill="none" />
+  <text x="480" y="190" font-family="Arial" font-size="14" fill="#7000ff">Person: 96%</text>
+  
+  <!-- Traffic Light Object -->
+  <rect x="550" y="150" width="40" height="80" rx="5" stroke="#00d9ff" stroke-width="3" fill="none" />
+  <text x="570" y="140" font-family="Arial" font-size="14" fill="#00d9ff">Traffic Light: 92%</text>
+  
+  <!-- Detection Frame -->
+  <rect x="150" y="100" width="500" height="350" rx="5" fill="none" stroke="white" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <rect x="250" y="480" width="300" height="50" rx="10" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="510" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Object Detection System</text>
+</svg>

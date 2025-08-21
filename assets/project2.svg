@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect width="800" height="600" fill="url(#gradient)" opacity="0.1" />
+  
+  <!-- Predictive Analytics Visual -->
+  <polyline points="100,400 200,300 300,350 400,200 500,250 600,150 700,100" 
+           stroke="url(#gradient)" stroke-width="4" fill="none" />
+  
+  <circle cx="200" cy="300" r="8" fill="white" />
+  <circle cx="300" cy="350" r="8" fill="white" />
+  <circle cx="400" cy="200" r="8" fill="white" />
+  <circle cx="500" cy="250" r="8" fill="white" />
+  <circle cx="600" cy="150" r="8" fill="white" />
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="100" x2="100" y2="400" stroke="#333" stroke-width="1" />
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#333" stroke-width="1" />
+  
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#333" stroke-width="0.5" stroke-dasharray="5,5" />
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#333" stroke-width="0.5" stroke-dasharray="5,5" />
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#333" stroke-width="0.5" stroke-dasharray="5,5" />
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#333" stroke-width="0.5" stroke-dasharray="5,5" />
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#333" stroke-width="0.5" stroke-dasharray="5,5" />
+  
+  <rect x="250" y="450" width="300" height="50" rx="10" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="480" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Predictive Analytics System</text>
+</svg>

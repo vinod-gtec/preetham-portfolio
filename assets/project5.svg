@@ -1,0 +1,48 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#111111" />
+  <rect width="800" height="600" fill="url(#gradient)" opacity="0.1" />
+  
+  <!-- Music Generation Visual -->
+  <!-- Music Staff Lines -->
+  <line x1="150" y1="200" x2="650" y2="200" stroke="white" stroke-width="1" />
+  <line x1="150" y1="230" x2="650" y2="230" stroke="white" stroke-width="1" />
+  <line x1="150" y1="260" x2="650" y2="260" stroke="white" stroke-width="1" />
+  <line x1="150" y1="290" x2="650" y2="290" stroke="white" stroke-width="1" />
+  <line x1="150" y1="320" x2="650" y2="320" stroke="white" stroke-width="1" />
+  
+  <!-- Treble Clef -->
+  <path d="M180,320 C180,280 160,240 180,200 C200,160 240,180 240,220 C240,260 200,280 180,260 C200,320 220,380 180,400" 
+        stroke="white" stroke-width="2" fill="none" />
+  
+  <!-- Music Notes -->
+  <circle cx="280" cy="260" r="10" fill="url(#gradient)" />
+  <line x1="290" y1="260" x2="290" y2="210" stroke="white" stroke-width="2" />
+  
+  <circle cx="340" cy="230" r="10" fill="url(#gradient)" />
+  <line x1="350" y1="230" x2="350" y2="180" stroke="white" stroke-width="2" />
+  
+  <circle cx="400" cy="290" r="10" fill="url(#gradient)" />
+  <line x1="410" y1="290" x2="410" y2="240" stroke="white" stroke-width="2" />
+  
+  <circle cx="460" cy="260" r="10" fill="url(#gradient)" />
+  <line x1="470" y1="260" x2="470" y2="210" stroke="white" stroke-width="2" />
+  
+  <circle cx="520" cy="230" r="10" fill="url(#gradient)" />
+  <line x1="530" y1="230" x2="530" y2="180" stroke="white" stroke-width="2" />
+  
+  <circle cx="580" cy="260" r="10" fill="url(#gradient)" />
+  <line x1="590" y1="260" x2="590" y2="210" stroke="white" stroke-width="2" />
+  
+  <!-- Sound Wave -->
+  <path d="M150,400 C200,380 250,420 300,380 C350,340 400,460 450,380 C500,300 550,420 600,380 C650,340 700,420 750,400" 
+        stroke="url(#gradient)" stroke-width="3" fill="none" />
+  
+  <rect x="250" y="480" width="300" height="50" rx="10" fill="url(#gradient)" opacity="0.8" />
+  <text x="400" y="510" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Music Generation AI</text>
+</svg>
